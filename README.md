@@ -1,4 +1,4 @@
-# supvis
+# Graph Visualization via Embedding: Supervised vs. Unsupervised Approaches
 
 Detail instructions are coming soon...
 
