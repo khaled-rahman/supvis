@@ -8,10 +8,10 @@ Download links of DeepWalk and HARP are given as follows:
 [DeepWalk][https://github.com/phanein/deepwalk]
 [HARP][https://github.com/GTmac/HARP]
 
-<img align="left" width="850" height="200" src="./visualizations/vispipeline.png">
+<img align="left" width="850" height="180" src="./visualizations/vispipeline.png">
 
 ## Generate 2D visualizations of embeddings
-To generate 2D visualization for a batchlayout embedding, please run the following command:
+At first, make sure all required python packages are installed in the computer such as `scipy`, `scikit-learn`, `networkx`, `matplotlib`, `numpy`. To generate 2D visualization for a batchlayout embedding, please run the following command:
 ```
 # python -u vismeasures.py datasets/cora.mtx 1 embeddings/cora_batchlayout_128.embd 128 datasets/cora.nodes.labels corabatchlayout
 ```
@@ -23,7 +23,7 @@ To generate 2D visualization for a GraphSAGE embedding, please run the following
 ```
 
 ## Find the value of aesthetic measures
-When we generate 2D visualization, it also reports silhouette and Davies-Bouldin measures. To get $$Q_{local}$$ and $$Q_{global}$$ measures, users need to have following R packages: `knitr`, `Rtsne`, `coRanking`,and `dimRed`. Then, go inside `qmeasures` folder and run the following:
+When we generate 2D visualization, it also reports silhouette and Davies-Bouldin measures. To get Q<sub>local</sub> and Q<sub>global</sub> measures, users need to have following R packages: `knitr`, `Rtsne`, `coRanking`,and `dimRed`. Then, go inside `qmeasures` folder and run the following:
 ```
 Rscript test.R
 ```
