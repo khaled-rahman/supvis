@@ -1,4 +1,4 @@
-## Visualization of Labeled Graphs via High-Dimensional Embedding:Supervised vs. Unsupervised Approaches
+## Visualization of Labeled Graphs via High-Dimensional Embedding: Supervised vs. Unsupervised Approaches
 We empirically show that the supervised graph embedding can generate better quality visualization than unsupervised methods. Different aesthetic measures support our prior statement.
 
 ## Run Different  Embedding Techniques
