@@ -100,7 +100,7 @@ if int(sys.argv[4]) == 2:
 else:
     print("Visualization by TSNE")
     X_embedded = TSNE(n_components=2).fit_transform(X)
-    X_f = X_embedde
+    X_f = X_embedded
 
 drawGraphc(G, X_f, labs, l, algoname)
 
